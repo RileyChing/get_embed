@@ -4,7 +4,7 @@ import torch
 import sys
 sys.path.append("..")
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
-from pif.influence_functions_new import calc_all_grad
+from pif.get_functions_new import calc_all_grad
 from pif.utils import init_logging
 from src.custom_data import CustomDataset, PadCollate
 from torch.utils.data import DataLoader
